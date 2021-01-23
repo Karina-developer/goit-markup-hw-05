@@ -856,7 +856,7 @@ img {
   border-bottom: 1px solid #eeeeee;
 }
 
-.float-content {
+.portfolio-content {
   position: absolute;
   width: 370px;
   left: 0;
@@ -870,7 +870,7 @@ img {
   transform: translatey(100%);
 }
 
-.techno {
+.overlay {
   position: absolute;
   width: 322px;
   height: 168px;
@@ -888,8 +888,8 @@ img {
   overflow: hidden;
 }
 
-.section-link:hover .float-content,
-.section-link:focus .float-content {
+.section-link:hover .portfolio-content,
+.section-link:focus .portfolio-content {
   opacity: 1;
   transform: translatey(0);
 }
