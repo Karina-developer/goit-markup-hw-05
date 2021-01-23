@@ -813,6 +813,45 @@ img {
   border-bottom: 1px solid #eeeeee;
 }
 
+.float-content {
+  position: absolute;
+  width: 370px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding: 63px 24px;
+  background: rgba(33, 150, 243, 0.9) 90%;
+  opacity: 0;
+  transition: 700ms;
+  transform: translatey(100%);
+}
+
+.techno {
+  position: absolute;
+  width: 322px;
+  height: 168px;
+  font-family: Roboto;
+  text-align: left;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.555;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.portfolio-img-wrap {
+  position: relative;
+  overflow: hidden;
+}
+
+.section-link:hover .float-content,
+.section-link:focus .float-content {
+  opacity: 1;
+  transform: translatey(0);
+}
+
 /* ===============END PORTFOLIO==================== */
 
 /* ===============BUTTON==================== */
